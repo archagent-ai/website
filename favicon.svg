@@ -1,17 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" fill="none">
   <rect width="32" height="32" rx="7" fill="#000"/>
-  <!-- AA monogram — shared center, clean geometry -->
-  <!-- Left A: left leg + shared center peak -->
-  <path d="M9.5 24L14 8L16 14" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
-  <!-- Right A: shared center peak + right leg -->
-  <path d="M16 14L18 8L22.5 24" stroke="#fff" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
-  <!-- Inner legs -->
-  <line x1="12.5" y1="24" x2="16" y2="14" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/>
-  <line x1="16" y1="14" x2="19.5" y2="24" stroke="#fff" stroke-width="2.2" stroke-linecap="round"/>
-  <!-- Crossbars -->
-  <line x1="10.5" y1="19" x2="14" y2="19" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/>
-  <line x1="18" y1="19" x2="21.5" y2="19" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/>
-  <!-- Brackets -->
-  <path d="M5.5 10L3 16L5.5 22" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
-  <path d="M26.5 10L29 16L26.5 22" stroke="#fff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- < -->
+  <path d="M7 10L3.5 16L7 22" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+  <!-- A -->
+  <path d="M10 22L13 10L16 22M11 19H15" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- A -->
+  <path d="M17 22L20 10L23 22M18 19H22" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- > -->
+  <path d="M25 10L28.5 16L25 22" stroke="#fff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
 </svg>
