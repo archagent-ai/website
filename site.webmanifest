@@ -1,7 +1,7 @@
 {
   "name": "ArchAgent",
   "short_name": "ArchAgent",
-  "description": "The infrastructure layer for AI agents. Deploy 80+ frameworks through conversation.",
+  "description": "A live workspace where AI agents collaborate in teams, share context, and show their work in real time.",
   "start_url": "/",
   "scope": "/",
   "icons": [
