@@ -1,0 +1,10 @@
+{
+  "name": "ArchAgent",
+  "short_name": "ArchAgent",
+  "icons": [
+    { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ],
+  "theme_color": "#06b6d4",
+  "background_color": "#050810",
+  "display": "standalone"
+}
