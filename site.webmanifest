@@ -1,6 +1,9 @@
 {
   "name": "ArchAgent",
   "short_name": "ArchAgent",
+  "description": "The infrastructure layer for AI agents. Deploy 80+ frameworks through conversation.",
+  "start_url": "/",
+  "scope": "/",
   "icons": [
     { "src": "favicon.svg", "sizes": "any", "type": "image/svg+xml" }
   ],

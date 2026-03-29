@@ -48,6 +48,7 @@ ul{list-style:none}
 @keyframes fadeUp{from{opacity:0;transform:translateY(20px)}to{opacity:1;transform:translateY(0)}}
 @keyframes glow-pulse{0%,100%{opacity:.6}50%{opacity:1}}
 .fade-up{animation:fadeUp .5s ease both}
+.fade-up-delay{animation-delay:.1s}
 @media(prefers-reduced-motion:reduce){.fade-up{animation:none}}
 
 /* ===== NAV ===== */
@@ -130,6 +131,7 @@ ul{list-style:none}
   font-size:19px;line-height:1.65;color:var(--muted);
   max-width:600px;margin:0 auto 36px;
 }
+.hero-compact{padding-bottom:40px}
 .hero-actions{display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-bottom:28px}
 .hero-meta{display:flex;gap:8px;flex-wrap:wrap;justify-content:center}
 
@@ -169,7 +171,7 @@ ul{list-style:none}
 /* ===== SECTIONS ===== */
 .section{padding:100px 0}
 .section-surface{background:var(--surface)}
-.section-raised{background:var(--bg-2)}
+.section-flush{padding-top:0}
 .section-header{text-align:center;max-width:620px;margin:0 auto 56px}
 .section-header h2{
   font-family:var(--font-heading);font-size:clamp(28px,3.5vw,44px);
@@ -304,6 +306,7 @@ ul{list-style:none}
   text-align:center;display:flex;flex-direction:column;align-items:center;
 }
 .pricing-card h3{font-family:var(--font-heading);font-size:20px;font-weight:700;letter-spacing:-.02em;margin-bottom:8px}
+.pricing-title{margin-top:16px}
 .pricing-price{
   font-family:var(--font-heading);font-size:clamp(40px,5vw,56px);font-weight:700;
   letter-spacing:-.04em;line-height:1.1;margin-bottom:4px;color:var(--cyan);
